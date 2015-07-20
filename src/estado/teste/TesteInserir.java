@@ -19,6 +19,7 @@ public class TesteInserir {
     public static void main(String[] args) {
         EstadoBean estado = new EstadoBean();
         
+        //Adicionando Descrição
         estado.setDescricao("Roraima");
         
         EstadoDaoImpl ed = new EstadoDaoImpl();
